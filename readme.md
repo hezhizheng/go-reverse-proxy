@@ -3,7 +3,7 @@
 > 基于go实现简单http/https的反向代理服务
 
 ## 使用
-- windows64 直接下载 release 
+- windows64 直接下载 [releases](https://github.com/hezhizheng/go-reverse-proxy/releases)
 - 编译
 ```
 git clone 
