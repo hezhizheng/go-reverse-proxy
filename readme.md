@@ -23,5 +23,5 @@ go build -ldflags "-s -w"
 -p string
       本地监听的端口 (default "1874")
 -r string
-      需要代理的地址 (default "https://hzz.cool")
+      需要代理的地址 (default "https://hzzio.top")
 ```
