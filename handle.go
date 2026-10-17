@@ -39,7 +39,7 @@ func GoReverseProxy(this *RProxy) *httputil.ReverseProxy {
 	// 修改响应头
 	proxy.ModifyResponse = func(response *http.Response) error {
 		response.Header.Add("Access-Control-Allow-Origin", "*")
-		response.Header.Add("Reverse-Proxy-Server-PowerBy", "(Hzz)https://hzz.cool")
+		response.Header.Add("Reverse-Proxy-Server-PowerBy", "(Hzz)https://hzzio.top")
 		return nil
 	}
 
