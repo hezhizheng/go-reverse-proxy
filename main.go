@@ -9,7 +9,7 @@ import (
 
 func main() {
 	port := flag.String("p", "1874", "本地监听的端口")
-	reverseUrl := flag.String("r", "https://hzz.cool", "需要代理的地址")
+	reverseUrl := flag.String("r", "https://hzzio.top", "需要代理的地址")
 	flag.Parse()
 
 	remote, err := url.Parse(*reverseUrl)
